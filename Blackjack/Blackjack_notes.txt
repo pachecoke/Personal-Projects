@@ -1,0 +1,41 @@
+Blackjack
+
+Rules (Casino rules):
+
+Dealer must hit if the value of the hand is lower than 17, otherwise the dealer will stand.
+H17 - Dealer must hit on soft 17.
+S17 - Dealer will stand on soft 17.
+You automatically win with a Natural (so does dealer)
+
+
+Lose = Bust.
+Hi
+
+Terms:
+
+Lose = Bust
+Additional card = Hit
+Stop = Stand
+Soft hand - a hand with an Ace acting as 11 pts.
+Hard hand - everything else
+Natural - when first 2 cards equal a Blackjack
+
+Objects:
+
+Player
+Dealer
+Card
+Shoe
+
+Flow:
+
+Player places bet
+
+{
+Dealer gives player 1 card
+Dealer takes 1 card
+Dealer gives player 1 card
+Dealer takes 1 card (face down)
+}
+
+Check if player or dealer has a natural
